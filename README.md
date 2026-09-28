@@ -40,7 +40,7 @@ See  [Model 1 Performance – Logistic Regression](models/Model_1_Performance.md
 
 ### Model 2 Performance – Random Forest
 
-See [Model 2 Performance – Random Forest](models/Model_2_Performance.md) for the Random Forest evaluation results, hyperparameter configuration, feature importance and instructions for reproducing the calculations using `src/RandomForest.ipynb`.
+See  [Model 2 Performance – Random Forest](models/Model%202%20Performance.md) for the Random Forest evaluation results, hyperparameter configuration, feature importance and instructions for reproducing the calculations using `src/RandomForest.ipynb`.
 
 ### Comparison of Model 1 and Model 2
 
