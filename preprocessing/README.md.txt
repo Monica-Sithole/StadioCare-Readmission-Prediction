@@ -1,7 +1,7 @@
 
-## Data Preprocessing
+# Data Preprocessing
 
-### 1. Overview
+## 1. Overview
 
 This stage prepares the Diabetes 130-US Hospitals for Years 1999–2008 dataset for the development of two machine learning models to predict hospital readmission within 30 days of discharge.
 
@@ -9,7 +9,7 @@ The original dataset contains 101,766 hospital encounters and 50 columns. The ta
 
 The preprocessing workflow converts the original target into a binary classification variable, maps hospital ID codes to descriptive categories, cleans the dataset, removes identifiers from the model predictors, and creates training and testing datasets.
 
-### 2. Files Used
+## 2. Files Used
 
 The preprocessing stage uses the following files:
 
@@ -19,7 +19,7 @@ The preprocessing stage uses the following files:
 | `data/IDS_mapping.csv` | Provides descriptions for admission type, discharge disposition, and admission source ID codes. |
 | `src/preprocessing.py` | Python script that performs data loading, mapping, cleaning, target creation, and splitting. |
 
-### 3. ID Mapping
+## 3. ID Mapping
 
 The original dataset contains three hospital-related ID columns that represent categories rather than continuous numerical measurements.
 
@@ -129,7 +129,7 @@ The exact number of records in each split may differ from a simple 80/20 row-lev
 
 ## 7. Limitations
 
-The dataset consists of historical records from US hospitals between 1999 and 2008. for diabetic patients  Model performance may not generalise directly to current South African hospitals.
+The dataset consists of historical records from US hospitals between 1999 and 2008. Model performance may not generalise directly to current South African hospitals.
 
 The target represents recorded readmission within 30 days and does not necessarily indicate avoidable readmission, poor quality of care, or clinical necessity.
 
