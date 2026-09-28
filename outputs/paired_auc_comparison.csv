@@ -1,0 +1,5 @@
+Measure,Value
+ROC-AUC difference (RF - LR),0.017613957971816974
+95% CI lower,0.008123086237787711
+95% CI upper,0.026121315805132786
+Valid bootstrap samples,1000.0
