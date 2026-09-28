@@ -36,7 +36,7 @@ Experiments:contains information about experimental setup and experimental resul
 Part C evaluates the Logistic Regression and Random Forest models using the Diabetes 130-US Hospitals dataset. Both models were evaluated on the same held-out test dataset of 20,153 observations.
 
 ### Model 1 Performance – Logistic Regression
-See  [Model 1 Performance – Logistic Regression](models/Model_1_Performance.md)for the Logistic Regression evaluation results, including accuracy, precision, recall, F1-score, ROC-AUC, PR-AUC and instructions for reproducing the calculations using `src/LogisticRegression.ipynb`.
+See  [Model 1 Performance – Logistic Regression](models/Model%201%20Performance.md)for the Logistic Regression evaluation results, including accuracy, precision, recall, F1-score, ROC-AUC, PR-AUC and instructions for reproducing the calculations using `src/LogisticRegression.ipynb`.
 
 ### Model 2 Performance – Random Forest
 
