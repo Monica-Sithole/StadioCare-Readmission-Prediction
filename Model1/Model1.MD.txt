@@ -53,7 +53,7 @@ The confusion matrix was also used to examine correct and incorrect predictions.
 
 ### Evaluation Results
 
-Insert the actual evaluation results after running the notebook.
+
 
 | Metric    | Test Score |
 | --------- | ---------- |
