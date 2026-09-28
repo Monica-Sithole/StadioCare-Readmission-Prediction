@@ -1,0 +1,79 @@
+# Model 1: Logistic Regression
+
+## 1. Introduction
+
+Logistic Regression was selected as the first classification model for the project. The model aims to predict whether a patient is likely to be readmitted to hospital within 30 days of discharge, using patient and hospital encounter characteristics.
+
+The model addresses the research question:
+
+“Can patient and hospital encounter characteristics be used to identify patients at increased risk of readmission within 30 days of discharge?”
+
+Logistic Regression provides a baseline against which the performance of the second model, Random Forest, can be compared.
+
+## 2. Data Preparation
+
+The model uses the processed training and testing datasets produced during the preprocessing and feature engineering stages.
+
+The dataset was divided into training and testing sets using a patient-level group split to reduce the risk of the same patient's encounters appearing in both sets.
+
+Missing numerical values were imputed using the median, while missing categorical values were imputed using the most frequent category. Categorical variables were converted into numerical representations through one-hot encoding, and numerical variables were standardised.
+
+The feature transformation process was fitted on the training data and applied to the testing data to prevent information leakage.
+
+The target variable was converted into a binary classification outcome:
+
+* 1: Readmitted within 30 days (`<30`).
+* 0: Not readmitted within 30 days (`NO` or `>30`).
+
+## 3. Model Technique and Hyperparameters
+
+Logistic Regression is a supervised machine learning algorithm used for binary classification. It estimates the probability that an observation belongs to the positive class using a logistic function.
+
+The model was implemented using the LogisticRegression estimator from the Scikit-learn library.
+
+The following hyperparameters were used:
+
+| Hyperparameter     | Value     |
+| ------------------ | --------- |
+| C                  | 1.0       |
+| Solver             | liblinear |
+| Class weight       | balanced  |
+| Maximum iterations | 1000      |
+| Random state       | 42        |
+
+The regularisation parameter was set to 1.0. The `liblinear` solver was selected for binary classification, while balanced class weights were applied to account for the difference in the number of positive and negative observations.
+
+## 4. Model Evaluation
+
+The model was evaluated on the held-out test dataset using accuracy, precision, recall, F1-score, ROC-AUC and PR-AUC.
+
+Recall is important because it measures the proportion of actual readmissions correctly identified by the model. Precision indicates the proportion of patients identified as high risk who were actually readmitted within 30 days.
+
+The confusion matrix was also used to examine correct and incorrect predictions. ROC and precision-recall curves were generated to assess the model's performance across different classification thresholds.
+
+### Evaluation Results
+
+Insert the actual evaluation results after running the notebook.
+
+| Metric    | Test Score |
+| --------- | ---------- |
+| Accuracy  | 0.656676   |
+| Precision | 0.166106   |
+| Recall    | 0.551371   |
+| F1-score  | 0.255301   |
+| ROC-AUC   | 0.653494   |
+| PR-AUC    | 0.201068   |
+
+## 5. Model Outputs
+
+The trained Logistic Regression model is saved as `models/logistic_regression_model.joblib`.
+
+The evaluation metrics and test predictions are saved in the `outputs` folder. These outputs will be used when comparing Logistic Regression with the Random Forest model.
+
+## 6. Limitations
+
+The model identifies statistical patterns associated with readmission but does not establish that a particular patient characteristic causes readmission.
+
+The dataset represents historical encounters from 130 US hospitals between 1999 and 2008. Its results may not generalise directly to current South African healthcare settings.
+
+Furthermore, a readmission within 30 days is not necessarily avoidable. The model should therefore be considered a decision-support tool for identifying patients who may benefit from additional assessment and follow-up, rather than a replacement for clinical judgement.
