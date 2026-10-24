@@ -1,0 +1,39 @@
+code,code_type,name,category,coding_system
+DX1023,Diagnosis,Type 2 diabetes mellitus,Endocrine,STADIOcare-DX v2026.1
+DX1044,Diagnosis,Essential hypertension,Circulatory,STADIOcare-DX v2026.1
+DX1120,Diagnosis,Congestive heart failure,Circulatory,STADIOcare-DX v2026.1
+DX1155,Diagnosis,Atrial fibrillation,Circulatory,STADIOcare-DX v2026.1
+DX2041,Diagnosis,Chronic obstructive pulmonary disease,Respiratory,STADIOcare-DX v2026.1
+DX2088,Diagnosis,Community-acquired pneumonia,Respiratory,STADIOcare-DX v2026.1
+DX2095,Diagnosis,Asthma exacerbation,Respiratory,STADIOcare-DX v2026.1
+DX3098,Diagnosis,Chronic kidney disease stage 3,Genitourinary,STADIOcare-DX v2026.1
+DX3140,Diagnosis,Urinary tract infection,Genitourinary,STADIOcare-DX v2026.1
+DX4011,Diagnosis,Cellulitis,Skin,STADIOcare-DX v2026.1
+DX4502,Diagnosis,Gastroenteritis,Digestive,STADIOcare-DX v2026.1
+DX4560,Diagnosis,Upper gastrointestinal bleed,Digestive,STADIOcare-DX v2026.1
+DX5003,Diagnosis,Normal delivery,Obstetric,STADIOcare-DX v2026.1
+DX5017,Diagnosis,Caesarean section,Obstetric,STADIOcare-DX v2026.1
+DX6001,Diagnosis,Fractured neck of femur,Injury,STADIOcare-DX v2026.1
+DX6044,Diagnosis,Head injury,Injury,STADIOcare-DX v2026.1
+DX7010,Diagnosis,Sepsis,Infectious,STADIOcare-DX v2026.1
+DX7055,Diagnosis,Cerebrovascular accident,Nervous,STADIOcare-DX v2026.1
+PROC1023,Procedure,CT scan,Imaging,STADIOcare-PROC v2026.1
+PROC1031,Procedure,Chest radiograph,Imaging,STADIOcare-PROC v2026.1
+PROC1050,Procedure,MRI scan,Imaging,STADIOcare-PROC v2026.1
+PROC2010,Procedure,Blood transfusion,Therapeutic,STADIOcare-PROC v2026.1
+PROC2020,Procedure,Haemodialysis,Therapeutic,STADIOcare-PROC v2026.1
+PROC2044,Procedure,Mechanical ventilation,Critical care,STADIOcare-PROC v2026.1
+PROC3011,Procedure,Appendicectomy,Surgical,STADIOcare-PROC v2026.1
+PROC3025,Procedure,Hip replacement,Surgical,STADIOcare-PROC v2026.1
+PROC3080,Procedure,Caesarean section,Surgical,STADIOcare-PROC v2026.1
+PROC3099,Procedure,Coronary angiography,Surgical,STADIOcare-PROC v2026.1
+PROC4002,Procedure,Upper GI endoscopy,Diagnostic,STADIOcare-PROC v2026.1
+PROC4015,Procedure,Colonoscopy,Diagnostic,STADIOcare-PROC v2026.1
+LAB-HBA1C,Laboratory test,HbA1c,Pathology,STADIOcare-LAB v2026.1
+LAB-CREAT,Laboratory test,Serum creatinine,Pathology,STADIOcare-LAB v2026.1
+LAB-HB,Laboratory test,Haemoglobin,Pathology,STADIOcare-LAB v2026.1
+LAB-WCC,Laboratory test,White cell count,Pathology,STADIOcare-LAB v2026.1
+LAB-CRP,Laboratory test,C-reactive protein,Pathology,STADIOcare-LAB v2026.1
+LAB-NA,Laboratory test,Serum sodium,Pathology,STADIOcare-LAB v2026.1
+LAB-K,Laboratory test,Serum potassium,Pathology,STADIOcare-LAB v2026.1
+LAB-BNP,Laboratory test,B-type natriuretic peptide,Pathology,STADIOcare-LAB v2026.1
