@@ -47,4 +47,10 @@ See  [Model 2 Performance – Random Forest](models/Model%202%20Performance.md) 
 See [Model Comparison](models/Comparison.md) for the side-by-side comparison of both models, confusion matrices, ROC and precision-recall curves, bootstrap confidence intervals and paired ROC-AUC analysis.
 
 The comparison calculations can be reproduced using `src/ModelComparison.ipynb` after running both model notebooks.
+## Presentation Video
 
+**STADIOcare Part C: Research and Recommendations**
+
+Watch the recorded presentation on YouTube:
+
+[▶ Watch the STADIOcare Part C Presentation](https://youtu.be/UiVJhT-0dk0)
